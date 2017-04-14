@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92BF28F1EA0B2E4002C5E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF28E1EA0B2E4002C5E3E /* main.m */; };
+		F92BF2921EA0B2E4002C5E3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2911EA0B2E4002C5E3E /* AppDelegate.m */; };
+		F92BF2951EA0B2E4002C5E3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2941EA0B2E4002C5E3E /* ViewController.m */; };
+		F92BF2981EA0B2E4002C5E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92BF2961EA0B2E4002C5E3E /* Main.storyboard */; };
+		F92BF29A1EA0B2E4002C5E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92BF2991EA0B2E4002C5E3E /* Assets.xcassets */; };
+		F92BF29D1EA0B2E4002C5E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92BF29B1EA0B2E4002C5E3E /* LaunchScreen.storyboard */; };
+		F92BF2A81EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2A71EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m */; };
+		F92BF2B31EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2B21EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92BF2A41EA0B2E4002C5E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92BF2821EA0B2E4002C5E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92BF2891EA0B2E4002C5E3E;
+			remoteInfo = SQPictureSelectorDemo;
+		};
+		F92BF2AF1EA0B2E4002C5E3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92BF2821EA0B2E4002C5E3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92BF2891EA0B2E4002C5E3E;
+			remoteInfo = SQPictureSelectorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F92BF28A1EA0B2E4002C5E3E /* SQPictureSelectorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQPictureSelectorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92BF28E1EA0B2E4002C5E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F92BF2901EA0B2E4002C5E3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F92BF2911EA0B2E4002C5E3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F92BF2931EA0B2E4002C5E3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F92BF2941EA0B2E4002C5E3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F92BF2971EA0B2E4002C5E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92BF2991EA0B2E4002C5E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92BF29C1EA0B2E4002C5E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F92BF29E1EA0B2E4002C5E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92BF2A31EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPictureSelectorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92BF2A71EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorDemoTests.m; sourceTree = "<group>"; };
+		F92BF2A91EA0B2E4002C5E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92BF2AE1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPictureSelectorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92BF2B21EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorDemoUITests.m; sourceTree = "<group>"; };
+		F92BF2B41EA0B2E4002C5E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92BF2871EA0B2E4002C5E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF2A01EA0B2E4002C5E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF2AB1EA0B2E4002C5E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92BF2811EA0B2E4002C5E3E = {
+			isa = PBXGroup;
+			children = (
+				F92BF28C1EA0B2E4002C5E3E /* SQPictureSelectorDemo */,
+				F92BF2A61EA0B2E4002C5E3E /* SQPictureSelectorDemoTests */,
+				F92BF2B11EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests */,
+				F92BF28B1EA0B2E4002C5E3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92BF28B1EA0B2E4002C5E3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF28A1EA0B2E4002C5E3E /* SQPictureSelectorDemo.app */,
+				F92BF2A31EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.xctest */,
+				F92BF2AE1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92BF28C1EA0B2E4002C5E3E /* SQPictureSelectorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF2901EA0B2E4002C5E3E /* AppDelegate.h */,
+				F92BF2911EA0B2E4002C5E3E /* AppDelegate.m */,
+				F92BF2931EA0B2E4002C5E3E /* ViewController.h */,
+				F92BF2941EA0B2E4002C5E3E /* ViewController.m */,
+				F92BF2961EA0B2E4002C5E3E /* Main.storyboard */,
+				F92BF2991EA0B2E4002C5E3E /* Assets.xcassets */,
+				F92BF29B1EA0B2E4002C5E3E /* LaunchScreen.storyboard */,
+				F92BF29E1EA0B2E4002C5E3E /* Info.plist */,
+				F92BF28D1EA0B2E4002C5E3E /* Supporting Files */,
+			);
+			path = SQPictureSelectorDemo;
+			sourceTree = "<group>";
+		};
+		F92BF28D1EA0B2E4002C5E3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF28E1EA0B2E4002C5E3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F92BF2A61EA0B2E4002C5E3E /* SQPictureSelectorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF2A71EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m */,
+				F92BF2A91EA0B2E4002C5E3E /* Info.plist */,
+			);
+			path = SQPictureSelectorDemoTests;
+			sourceTree = "<group>";
+		};
+		F92BF2B11EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF2B21EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m */,
+				F92BF2B41EA0B2E4002C5E3E /* Info.plist */,
+			);
+			path = SQPictureSelectorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92BF2891EA0B2E4002C5E3E /* SQPictureSelectorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92BF2B71EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemo" */;
+			buildPhases = (
+				F92BF2861EA0B2E4002C5E3E /* Sources */,
+				F92BF2871EA0B2E4002C5E3E /* Frameworks */,
+				F92BF2881EA0B2E4002C5E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQPictureSelectorDemo;
+			productName = SQPictureSelectorDemo;
+			productReference = F92BF28A1EA0B2E4002C5E3E /* SQPictureSelectorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92BF2A21EA0B2E4002C5E3E /* SQPictureSelectorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92BF2BA1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoTests" */;
+			buildPhases = (
+				F92BF29F1EA0B2E4002C5E3E /* Sources */,
+				F92BF2A01EA0B2E4002C5E3E /* Frameworks */,
+				F92BF2A11EA0B2E4002C5E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92BF2A51EA0B2E4002C5E3E /* PBXTargetDependency */,
+			);
+			name = SQPictureSelectorDemoTests;
+			productName = SQPictureSelectorDemoTests;
+			productReference = F92BF2A31EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F92BF2AD1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92BF2BD1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoUITests" */;
+			buildPhases = (
+				F92BF2AA1EA0B2E4002C5E3E /* Sources */,
+				F92BF2AB1EA0B2E4002C5E3E /* Frameworks */,
+				F92BF2AC1EA0B2E4002C5E3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92BF2B01EA0B2E4002C5E3E /* PBXTargetDependency */,
+			);
+			name = SQPictureSelectorDemoUITests;
+			productName = SQPictureSelectorDemoUITests;
+			productReference = F92BF2AE1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92BF2821EA0B2E4002C5E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SNQU;
+				TargetAttributes = {
+					F92BF2891EA0B2E4002C5E3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					F92BF2A21EA0B2E4002C5E3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F92BF2891EA0B2E4002C5E3E;
+					};
+					F92BF2AD1EA0B2E4002C5E3E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F92BF2891EA0B2E4002C5E3E;
+					};
+				};
+			};
+			buildConfigurationList = F92BF2851EA0B2E4002C5E3E /* Build configuration list for PBXProject "SQPictureSelectorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92BF2811EA0B2E4002C5E3E;
+			productRefGroup = F92BF28B1EA0B2E4002C5E3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92BF2891EA0B2E4002C5E3E /* SQPictureSelectorDemo */,
+				F92BF2A21EA0B2E4002C5E3E /* SQPictureSelectorDemoTests */,
+				F92BF2AD1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92BF2881EA0B2E4002C5E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BF29D1EA0B2E4002C5E3E /* LaunchScreen.storyboard in Resources */,
+				F92BF29A1EA0B2E4002C5E3E /* Assets.xcassets in Resources */,
+				F92BF2981EA0B2E4002C5E3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF2A11EA0B2E4002C5E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF2AC1EA0B2E4002C5E3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92BF2861EA0B2E4002C5E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BF2951EA0B2E4002C5E3E /* ViewController.m in Sources */,
+				F92BF2921EA0B2E4002C5E3E /* AppDelegate.m in Sources */,
+				F92BF28F1EA0B2E4002C5E3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF29F1EA0B2E4002C5E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BF2A81EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92BF2AA1EA0B2E4002C5E3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92BF2B31EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92BF2A51EA0B2E4002C5E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92BF2891EA0B2E4002C5E3E /* SQPictureSelectorDemo */;
+			targetProxy = F92BF2A41EA0B2E4002C5E3E /* PBXContainerItemProxy */;
+		};
+		F92BF2B01EA0B2E4002C5E3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92BF2891EA0B2E4002C5E3E /* SQPictureSelectorDemo */;
+			targetProxy = F92BF2AF1EA0B2E4002C5E3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F92BF2961EA0B2E4002C5E3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92BF2971EA0B2E4002C5E3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92BF29B1EA0B2E4002C5E3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92BF29C1EA0B2E4002C5E3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92BF2B51EA0B2E4002C5E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92BF2B61EA0B2E4002C5E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92BF2B81EA0B2E4002C5E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQPictureSelectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F92BF2B91EA0B2E4002C5E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SQPictureSelectorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F92BF2BB1EA0B2E4002C5E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQPictureSelectorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQPictureSelectorDemo.app/SQPictureSelectorDemo";
+			};
+			name = Debug;
+		};
+		F92BF2BC1EA0B2E4002C5E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQPictureSelectorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQPictureSelectorDemo.app/SQPictureSelectorDemo";
+			};
+			name = Release;
+		};
+		F92BF2BE1EA0B2E4002C5E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQPictureSelectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQPictureSelectorDemo;
+			};
+			name = Debug;
+		};
+		F92BF2BF1EA0B2E4002C5E3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQPictureSelectorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQPictureSelectorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92BF2851EA0B2E4002C5E3E /* Build configuration list for PBXProject "SQPictureSelectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BF2B51EA0B2E4002C5E3E /* Debug */,
+				F92BF2B61EA0B2E4002C5E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92BF2B71EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BF2B81EA0B2E4002C5E3E /* Debug */,
+				F92BF2B91EA0B2E4002C5E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F92BF2BA1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BF2BB1EA0B2E4002C5E3E /* Debug */,
+				F92BF2BC1EA0B2E4002C5E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F92BF2BD1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92BF2BE1EA0B2E4002C5E3E /* Debug */,
+				F92BF2BF1EA0B2E4002C5E3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92BF2821EA0B2E4002C5E3E /* Project object */;
+}
