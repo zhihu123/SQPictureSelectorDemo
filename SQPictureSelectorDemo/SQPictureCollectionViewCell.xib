@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SQPictureCollectionViewCell" id="gTV-IL-0wX" customClass="SQPictureCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Cr-Wo-cGJ">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <gestureRecognizers/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo_def_photoPickerVc.png" highlightedImage="photo_sel_photoPickerVc.png" translatesAutoresizingMaskIntoConstraints="NO" id="fkI-nW-mhd">
+                        <rect key="frame" x="55" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="bvl-ye-EqY"/>
+                            <constraint firstAttribute="width" constant="20" id="kfB-ja-3tY"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="8Cr-Wo-cGJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="4qP-VQ-der"/>
+                <constraint firstAttribute="trailing" secondItem="8Cr-Wo-cGJ" secondAttribute="trailing" id="8op-Kg-47a"/>
+                <constraint firstItem="8Cr-Wo-cGJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QD8-Zw-KN3"/>
+                <constraint firstAttribute="trailing" secondItem="fkI-nW-mhd" secondAttribute="trailing" constant="5" id="Vfj-K8-kNr"/>
+                <constraint firstItem="fkI-nW-mhd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="aOq-xl-wUi"/>
+                <constraint firstAttribute="bottom" secondItem="8Cr-Wo-cGJ" secondAttribute="bottom" id="kcO-Nr-rVI"/>
+            </constraints>
+            <size key="customSize" width="46" height="42"/>
+            <connections>
+                <outlet property="pictureImageView" destination="8Cr-Wo-cGJ" id="iBo-xx-BAm"/>
+                <outlet property="selectImageView" destination="fkI-nW-mhd" id="6Lt-hn-2jL"/>
+            </connections>
+            <point key="canvasLocation" x="-175" y="-578"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo_def_photoPickerVc.png" width="27" height="27"/>
+        <image name="photo_sel_photoPickerVc.png" width="27" height="27"/>
+    </resources>
+</document>

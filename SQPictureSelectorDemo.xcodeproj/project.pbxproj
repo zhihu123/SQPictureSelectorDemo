@@ -15,6 +15,20 @@
 		F92BF29D1EA0B2E4002C5E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92BF29B1EA0B2E4002C5E3E /* LaunchScreen.storyboard */; };
 		F92BF2A81EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2A71EA0B2E4002C5E3E /* SQPictureSelectorDemoTests.m */; };
 		F92BF2B31EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2B21EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m */; };
+		F92BF2C41EA0B339002C5E3E /* SQActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF2C31EA0B339002C5E3E /* SQActionSheetView.m */; };
+		F92BF3061EA0CBCB002C5E3E /* SQPictureSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF3051EA0CBCB002C5E3E /* SQPictureSelector.m */; };
+		F92BF3101EA0CF16002C5E3E /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = F92BF30F1EA0CF16002C5E3E /* UIImage+FixOrientation.m */; };
+		F94D6FD21EB1A53B00A31C3E /* SQPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F94D6FD01EB1A53B00A31C3E /* SQPictureCollectionViewCell.m */; };
+		F94D6FD31EB1A53B00A31C3E /* SQPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F94D6FD11EB1A53B00A31C3E /* SQPictureCollectionViewCell.xib */; };
+		F94D6FD61EB1BFBC00A31C3E /* photo_def_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94D6FD41EB1BFBC00A31C3E /* photo_def_photoPickerVc@2x.png */; };
+		F94D6FD71EB1BFBC00A31C3E /* photo_sel_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94D6FD51EB1BFBC00A31C3E /* photo_sel_photoPickerVc@2x.png */; };
+		F94D6FDD1EB1C92300A31C3E /* SQPictureSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F94D6FDC1EB1C92300A31C3E /* SQPictureSelectorViewController.m */; };
+		F96132D31EBC789F003D9CBA /* SQPictureSelectorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96132D21EBC789F003D9CBA /* SQPictureSelectorTableViewController.m */; };
+		F96132D71EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F96132D51EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.m */; };
+		F96132D81EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96132D61EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.xib */; };
+		F99E8BE51EA7434700FDC55A /* SQUIImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99E8BE41EA7434700FDC55A /* SQUIImagePickerController.m */; };
+		F99E8BE81EA7456B00FDC55A /* AssetsPickerChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99E8BE61EA7456B00FDC55A /* AssetsPickerChecked@2x.png */; };
+		F99E8BE91EA7456B00FDC55A /* AssetsPickerChecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99E8BE71EA7456B00FDC55A /* AssetsPickerChecked@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,30 @@
 		F92BF2AE1EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQPictureSelectorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92BF2B21EA0B2E4002C5E3E /* SQPictureSelectorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorDemoUITests.m; sourceTree = "<group>"; };
 		F92BF2B41EA0B2E4002C5E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92BF2C21EA0B339002C5E3E /* SQActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQActionSheetView.h; sourceTree = "<group>"; };
+		F92BF2C31EA0B339002C5E3E /* SQActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQActionSheetView.m; sourceTree = "<group>"; };
+		F92BF3041EA0CBCB002C5E3E /* SQPictureSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPictureSelector.h; sourceTree = "<group>"; };
+		F92BF3051EA0CBCB002C5E3E /* SQPictureSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelector.m; sourceTree = "<group>"; };
+		F92BF30E1EA0CF16002C5E3E /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		F92BF30F1EA0CF16002C5E3E /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		F94D6FCF1EB1A53B00A31C3E /* SQPictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		F94D6FD01EB1A53B00A31C3E /* SQPictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		F94D6FD11EB1A53B00A31C3E /* SQPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		F94D6FD41EB1BFBC00A31C3E /* photo_def_photoPickerVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_def_photoPickerVc@2x.png"; sourceTree = "<group>"; };
+		F94D6FD51EB1BFBC00A31C3E /* photo_sel_photoPickerVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_sel_photoPickerVc@2x.png"; sourceTree = "<group>"; };
+		F94D6FDB1EB1C92300A31C3E /* SQPictureSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPictureSelectorViewController.h; sourceTree = "<group>"; };
+		F94D6FDC1EB1C92300A31C3E /* SQPictureSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorViewController.m; sourceTree = "<group>"; };
+		F94E4F1A1EA734DF00C3EFE1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F94E4F1B1EA734DF00C3EFE1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F96132D11EBC789F003D9CBA /* SQPictureSelectorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPictureSelectorTableViewController.h; sourceTree = "<group>"; };
+		F96132D21EBC789F003D9CBA /* SQPictureSelectorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorTableViewController.m; sourceTree = "<group>"; };
+		F96132D41EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPictureSelectorTableViewCell.h; sourceTree = "<group>"; };
+		F96132D51EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPictureSelectorTableViewCell.m; sourceTree = "<group>"; };
+		F96132D61EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPictureSelectorTableViewCell.xib; sourceTree = "<group>"; };
+		F99E8BE31EA7434700FDC55A /* SQUIImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQUIImagePickerController.h; sourceTree = "<group>"; };
+		F99E8BE41EA7434700FDC55A /* SQUIImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQUIImagePickerController.m; sourceTree = "<group>"; };
+		F99E8BE61EA7456B00FDC55A /* AssetsPickerChecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AssetsPickerChecked@2x.png"; sourceTree = "<group>"; };
+		F99E8BE71EA7456B00FDC55A /* AssetsPickerChecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AssetsPickerChecked@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +139,7 @@
 		F92BF28C1EA0B2E4002C5E3E /* SQPictureSelectorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F92BF2C01EA0B2E9002C5E3E /* SQPictureSelector */,
 				F92BF2901EA0B2E4002C5E3E /* AppDelegate.h */,
 				F92BF2911EA0B2E4002C5E3E /* AppDelegate.m */,
 				F92BF2931EA0B2E4002C5E3E /* ViewController.h */,
@@ -138,6 +177,43 @@
 				F92BF2B41EA0B2E4002C5E3E /* Info.plist */,
 			);
 			path = SQPictureSelectorDemoUITests;
+			sourceTree = "<group>";
+		};
+		F92BF2C01EA0B2E9002C5E3E /* SQPictureSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF3041EA0CBCB002C5E3E /* SQPictureSelector.h */,
+				F92BF3051EA0CBCB002C5E3E /* SQPictureSelector.m */,
+				F92BF30E1EA0CF16002C5E3E /* UIImage+FixOrientation.h */,
+				F92BF30F1EA0CF16002C5E3E /* UIImage+FixOrientation.m */,
+				F99E8BE31EA7434700FDC55A /* SQUIImagePickerController.h */,
+				F99E8BE41EA7434700FDC55A /* SQUIImagePickerController.m */,
+				F94D6FDB1EB1C92300A31C3E /* SQPictureSelectorViewController.h */,
+				F94D6FDC1EB1C92300A31C3E /* SQPictureSelectorViewController.m */,
+				F94D6FCF1EB1A53B00A31C3E /* SQPictureCollectionViewCell.h */,
+				F94D6FD01EB1A53B00A31C3E /* SQPictureCollectionViewCell.m */,
+				F94D6FD11EB1A53B00A31C3E /* SQPictureCollectionViewCell.xib */,
+				F96132D11EBC789F003D9CBA /* SQPictureSelectorTableViewController.h */,
+				F96132D21EBC789F003D9CBA /* SQPictureSelectorTableViewController.m */,
+				F96132D41EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.h */,
+				F96132D51EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.m */,
+				F96132D61EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.xib */,
+				F99E8BE61EA7456B00FDC55A /* AssetsPickerChecked@2x.png */,
+				F99E8BE71EA7456B00FDC55A /* AssetsPickerChecked@3x.png */,
+				F94D6FD41EB1BFBC00A31C3E /* photo_def_photoPickerVc@2x.png */,
+				F94D6FD51EB1BFBC00A31C3E /* photo_sel_photoPickerVc@2x.png */,
+				F92BF2C11EA0B30A002C5E3E /* SQActionSheetView */,
+			);
+			name = SQPictureSelector;
+			sourceTree = "<group>";
+		};
+		F92BF2C11EA0B30A002C5E3E /* SQActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				F92BF2C21EA0B339002C5E3E /* SQActionSheetView.h */,
+				F92BF2C31EA0B339002C5E3E /* SQActionSheetView.m */,
+			);
+			name = SQActionSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +283,7 @@
 				TargetAttributes = {
 					F92BF2891EA0B2E4002C5E3E = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 5F3XP4EHW6;
 						ProvisioningStyle = Automatic;
 					};
 					F92BF2A21EA0B2E4002C5E3E = {
@@ -246,9 +323,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94D6FD71EB1BFBC00A31C3E /* photo_sel_photoPickerVc@2x.png in Resources */,
 				F92BF29D1EA0B2E4002C5E3E /* LaunchScreen.storyboard in Resources */,
+				F94D6FD61EB1BFBC00A31C3E /* photo_def_photoPickerVc@2x.png in Resources */,
 				F92BF29A1EA0B2E4002C5E3E /* Assets.xcassets in Resources */,
 				F92BF2981EA0B2E4002C5E3E /* Main.storyboard in Resources */,
+				F94D6FD31EB1A53B00A31C3E /* SQPictureCollectionViewCell.xib in Resources */,
+				F96132D81EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.xib in Resources */,
+				F99E8BE91EA7456B00FDC55A /* AssetsPickerChecked@3x.png in Resources */,
+				F99E8BE81EA7456B00FDC55A /* AssetsPickerChecked@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +356,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94D6FDD1EB1C92300A31C3E /* SQPictureSelectorViewController.m in Sources */,
+				F92BF2C41EA0B339002C5E3E /* SQActionSheetView.m in Sources */,
+				F96132D71EBC7ADE003D9CBA /* SQPictureSelectorTableViewCell.m in Sources */,
+				F92BF3061EA0CBCB002C5E3E /* SQPictureSelector.m in Sources */,
+				F96132D31EBC789F003D9CBA /* SQPictureSelectorTableViewController.m in Sources */,
+				F94D6FD21EB1A53B00A31C3E /* SQPictureCollectionViewCell.m in Sources */,
 				F92BF2951EA0B2E4002C5E3E /* ViewController.m in Sources */,
+				F99E8BE51EA7434700FDC55A /* SQUIImagePickerController.m in Sources */,
 				F92BF2921EA0B2E4002C5E3E /* AppDelegate.m in Sources */,
+				F92BF3101EA0CF16002C5E3E /* UIImage+FixOrientation.m in Sources */,
 				F92BF28F1EA0B2E4002C5E3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +406,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F92BF2971EA0B2E4002C5E3E /* Base */,
+				F94E4F1A1EA734DF00C3EFE1 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +415,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F92BF29C1EA0B2E4002C5E3E /* Base */,
+				F94E4F1B1EA734DF00C3EFE1 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -334,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -383,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -426,7 +521,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F3XP4EHW6;
 				INFOPLIST_FILE = SQPictureSelectorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +534,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5F3XP4EHW6;
 				INFOPLIST_FILE = SQPictureSelectorDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SNQU.SQPictureSelectorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +608,7 @@
 				F92BF2B91EA0B2E4002C5E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F92BF2BA1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +617,7 @@
 				F92BF2BC1EA0B2E4002C5E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F92BF2BD1EA0B2E4002C5E3E /* Build configuration list for PBXNativeTarget "SQPictureSelectorDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +626,7 @@
 				F92BF2BF1EA0B2E4002C5E3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
